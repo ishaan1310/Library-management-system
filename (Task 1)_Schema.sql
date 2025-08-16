@@ -1,8 +1,6 @@
--- Create Database
 CREATE DATABASE IF NOT EXISTS librarymanagementdb;
 USE librarymanagementdb;
 
--- Author Table
 CREATE TABLE IF NOT EXISTS Author (
     author_id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
@@ -10,7 +8,6 @@ CREATE TABLE IF NOT EXISTS Author (
     PRIMARY KEY (author_id)
 );
 
--- Publisher Table
 CREATE TABLE IF NOT EXISTS Publisher (
     publisher_id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
@@ -18,7 +15,6 @@ CREATE TABLE IF NOT EXISTS Publisher (
     PRIMARY KEY (publisher_id)
 );
 
--- Book Table
 CREATE TABLE IF NOT EXISTS Book (
     book_id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(150) NOT NULL,
@@ -29,7 +25,6 @@ CREATE TABLE IF NOT EXISTS Book (
     FOREIGN KEY (publisher_id) REFERENCES Publisher(publisher_id)
 );
 
--- Book_Author Table
 CREATE TABLE IF NOT EXISTS Book_Author (
     book_id INT NOT NULL,
     author_id INT NOT NULL,
@@ -38,7 +33,6 @@ CREATE TABLE IF NOT EXISTS Book_Author (
     FOREIGN KEY (author_id) REFERENCES Author(author_id)
 );
 
--- Member Table
 CREATE TABLE IF NOT EXISTS Member (
     member_id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
@@ -47,7 +41,6 @@ CREATE TABLE IF NOT EXISTS Member (
     PRIMARY KEY (member_id)
 );
 
--- Staff Table
 CREATE TABLE IF NOT EXISTS Staff (
     staff_id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
@@ -55,7 +48,6 @@ CREATE TABLE IF NOT EXISTS Staff (
     PRIMARY KEY (staff_id)
 );
 
--- Loan Table
 CREATE TABLE IF NOT EXISTS Loan (
     loan_id INT NOT NULL AUTO_INCREMENT,
     book_id INT,
