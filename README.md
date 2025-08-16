@@ -61,3 +61,28 @@ In this task, I:
 5. Use:
    ```sql
    SELECT * FROM table_name;
+   
+# Library Management System – Task 3
+
+## Overview
+This task focuses on writing `SELECT` queries to retrieve and filter data from the library database.
+
+## Covered Topics
+- Selecting all columns (`SELECT *`)
+- Selecting specific columns
+- Filtering with `WHERE`, `AND`, `OR`
+- Pattern matching with `LIKE`
+- Range filtering with `BETWEEN`
+- Sorting results with `ORDER BY`
+- Limiting results with `LIMIT`
+- Using column aliases (`AS`)
+- Showing unique results with `DISTINCT`
+
+## File Added
+- `task3_select_queries.sql`
+
+## How to Run
+1. Open MySQL Workbench
+2. Select `librarymanagementdb` database
+3. Run queries from `task3_select_queries.sql`
+4. View results in the output grid
