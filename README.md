@@ -119,3 +119,25 @@ This task focuses on combining data from multiple tables using different SQL joi
 2. Select `librarymanagementdb` database
 3. Run queries from `task5_sql_joins.sql`
 4. View results in the output grid
+
+# Library Management System – Task 6
+
+## Overview
+This task focuses on writing SQL subqueries and nested queries to perform advanced filtering and data retrieval.
+
+## Covered Topics
+- Scalar subqueries
+- Correlated subqueries
+- Subqueries in WHERE (IN, EXISTS)
+- Subqueries in SELECT
+- Derived tables (subquery in FROM)
+- Filtering results from subqueries
+
+## File Added
+- `task6_subqueries.sql`
+
+## How to Run
+1. Open MySQL Workbench
+2. Select `librarymanagementdb` database
+3. Run queries from `task6_subqueries.sql`
+4. View results in the output grid
