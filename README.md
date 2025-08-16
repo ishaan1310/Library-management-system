@@ -97,3 +97,25 @@ In this task, I practiced:
 
 ### File Added
 - `task4_aggregate_grouping.sql`
+
+# Library Management System – Task 5
+
+## Overview
+This task focuses on combining data from multiple tables using different SQL join types.
+
+## Covered Topics
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN (via UNION in MySQL)
+- Joining more than two tables
+- Self joins
+
+## File Added
+- `task5_sql_joins.sql`
+
+## How to Run
+1. Open MySQL Workbench
+2. Select `librarymanagementdb` database
+3. Run queries from `task5_sql_joins.sql`
+4. View results in the output grid
