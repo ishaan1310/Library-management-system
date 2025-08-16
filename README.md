@@ -141,3 +141,23 @@ This task focuses on writing SQL subqueries and nested queries to perform advanc
 2. Select `librarymanagementdb` database
 3. Run queries from `task6_subqueries.sql`
 4. View results in the output grid
+
+# Library Management System – Task 7
+
+## Overview
+This task focuses on creating and using SQL views to simplify queries, improve readability, and secure data.
+
+## Views Created
+1. **BooksWithAuthors** – Shows all books with their authors.
+2. **ActiveLoans** – Displays currently borrowed books with member and staff details.
+3. **BooksPerPublisher** – Counts how many books each publisher has.
+4. **FrequentBorrowers** – Lists members who borrowed more than one book.
+
+## File Added
+- `task7_views.sql`
+
+## How to Run
+1. Open MySQL Workbench
+2. Select `librarymanagementdb` database
+3. Run queries from `task7_views.sql`
+4. Use `SELECT * FROM view_name;` to view the results.
