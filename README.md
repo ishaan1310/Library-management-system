@@ -161,3 +161,27 @@ This task focuses on creating and using SQL views to simplify queries, improve r
 2. Select `librarymanagementdb` database
 3. Run queries from `task7_views.sql`
 4. Use `SELECT * FROM view_name;` to view the results.
+
+# Library Management System – Task 8
+
+## Overview
+This task demonstrates how to modularize SQL logic using stored procedures and functions.
+
+## Covered Topics
+- Creating stored procedures with `CREATE PROCEDURE`
+- Using IN parameters
+- Creating functions with `CREATE FUNCTION`
+- Using RETURN to output results
+- Calling stored procedures with `CALL`
+- Using functions in `SELECT` queries
+
+## Files Added
+- `task8_procedures_functions.sql`
+
+## How to Run
+1. Open MySQL Workbench
+2. Select `librarymanagementdb` database
+3. Run queries from `task8_procedures_functions.sql`
+4. Test the procedure with:
+   ```sql
+   CALL GetBooksByAuthor('J.K. Rowling');
