@@ -86,3 +86,14 @@ This task focuses on writing `SELECT` queries to retrieve and filter data from t
 2. Select `librarymanagementdb` database
 3. Run queries from `task3_select_queries.sql`
 4. View results in the output grid
+
+## Task 4 – Aggregate Functions & Grouping
+
+In this task, I practiced:
+- Using aggregate functions (`SUM`, `COUNT`, `AVG`, `MIN`, `MAX`)
+- Grouping results with `GROUP BY`
+- Filtering groups with `HAVING`
+- Ordering grouped results
+
+### File Added
+- `task4_aggregate_grouping.sql`
