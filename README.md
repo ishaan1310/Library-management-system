@@ -39,3 +39,25 @@ The database schema is normalized and includes all necessary relationships with 
    ```sql
    CREATE DATABASE librarymanagementdb;
    USE librarymanagementdb;
+   
+## Task 2 – Data Insertion & NULL Handling
+
+In this task, I:
+- Inserted sample data into all tables (`Author`, `Publisher`, `Book`, `Book_Author`, `Member`, `Staff`, `Loan`)
+- Added records with `NULL` values to test handling of missing data
+- Used `SELECT` queries to find records with `NULL`
+- Updated records (e.g., fixing emails, marking books as returned)
+- Deleted records while respecting foreign key constraints
+- Resolved foreign key issues by deleting dependent records first
+
+### File Added
+- `data_insertion.sql` → Contains all `INSERT`, `UPDATE`, `DELETE`, and NULL-handling queries
+
+### How to Run
+1. Open MySQL Workbench
+2. Select `librarymanagementdb` database
+3. Open `data_insertion.sql`
+4. Execute all queries
+5. Use:
+   ```sql
+   SELECT * FROM table_name;
